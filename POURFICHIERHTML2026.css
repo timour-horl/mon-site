@@ -2,7 +2,7 @@ body {
     background-color: rgb(201, 237, 250);
 }
 body {
-    margin: 100px;
+    margin: 10px;
 }
 
 @media (max-width: 600px) {
