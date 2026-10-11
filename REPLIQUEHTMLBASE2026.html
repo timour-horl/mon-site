@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+      <link rel="stylesheet" href="POURFICHIERHTML2026.css">
+      <script src="javascriptassaiepourbasehtml2026.js" defer></script>
+</head>
+<body style="margin-top:100px;margin-bottom:100px;margin-left:100px;margin-right:100px">
+    <h1 style="color: rgb(118, 50, 254);">Ce qu'il faut savoir sur <em>HTML</em></h1>
+          <img src="https://cedric.cnam.fr/~pons/nfa040/images/coursINTROdata/exempleHTML.png" alt="Exemple HTML">
+          <p> meta charset="UTF-8"> ce place dans la "head" du document HTML. Il est utilisé pour spécifier l'encodage des caractères du document, ce qui permet aux naviguateurs web d'afficher correctement les caractères spéciaux et les langues différentes. L'encodage UTF-8 est largement utilisé car il prend en charge un large éventail de caractères, y compris ceux des langues non latines.</p>
+<p> meta name="viewport" content="width=device-width, initial-scale=1.0"> Ce meta tag est également placé dans la "head" du document HTML. Il est utilisé pour contrôler la mise en page et l'échelle de la page sur les appareils mobiles. En définissant la largeur de la fenêtre d'affichage à la largeur de l'appareil et en fixant le niveau de zoom initial à 1, cela permet d'assurer que le contenu s'affiche correctement sur différents types d'écrans, offrant ainsi une meilleure expérience utilisateur sur les smartphones et les tablettes.</p>
+<h3>C'est Tim Berners-Lee qui a inventé le code html et le World Wide Web.</h3>
+<p>Pour mettre quelque chose en gras en code html comme ca : <strong>World Wide Web</strong> , il faut utiliser la balise "< strong >"</p>
+<p><strong>HTML est l'acronyme pour HyperText Markup Language.</strong></p>
+<p>La déclaration de type de document est faite avec la balise "< !DOCTYPE html >".</p>
+<p>En html, pour mettre un lien , on utilise cette balise : < a href="https://www.example.com">Lien vers Example< /a ></p>
+    <a href="https://www.youtube.com/watch?v=YuW5Xtuzj1s" target="_blank">Music</a>
+<p>Pour donner l'information au navigateur de où il faut ouvrir le lien , on ecrit target=" _blank " juste après le lien .<br><strong>ex:< a href="https://www.example.com" target="_blank">Lien!!!< /a ></strong>    </p>
+<p>La balise < br > est utilisée pour insérer un saut de ligne dans le texte.<br><strong>Elle n'a pas besoin de balise de fermeture.</strong></p>
+<p style="color:rgb(236, 0, 0)"><em>Pour mettre un texte en italique , il faut utiliser la balise < em >.</em></p>
+<p style="color:rgb(0, 0, 139)">Pour mettre un texte en couleur , il faut utiliser un attribut dans la balise avant l'ecriture . Celui-ci : ""  style="color:blue"  ""
+<p style="color:orange; font-size: 30px;font-family: trebuchet MS;"><strong>attribut=un attribut en HTML est une information ajoutée dans une balise ouvrante pour préciser son fonctionnement ou ses caractéristiques.<br>balise=une balise en HTML est un élément écrit entre des chevrons (< >) qui permet de structurer ou de définir le contenu d'une page web.</strong></p>
+<details  style="margin-bottom: 50px;">
+    <summary style="font-size:40px;font-family:cursive">Personaliser un texte</summary>
+    <p>Pour mettre un texte en couleur , il faut utiliser l'attribut "style" avec la propriété "color". <br><strong>ex:< p style = " color  :  blue "></strong></p>
+<p>Pour changer la taille du texte , il faut utiliser l'attribut "style" avec la propriété "font-size". <br><strong>ex:< p style = " font-size  :  20px " ></strong><br>20px signifie 20 pixels.</p>
+<p>Pour changer la police du texte , il faut utiliser l'attribut "style" avec la propriété "font-family". <br><strong>ex:< p style = " font-family  :  Arial "></strong></p>
+<p style="font-size:25px">On peut mettre plusieurs styles en même temps en les séparant par un point-virgule.<br><strong>ex:< p style = " color  :  blue ; font-size  :  20px " ></strong></p>
+</details>
+<button id="monBouton">Clique ici très vite</button>
+<p style="font-size:30px">Pour mettre une liste avec des numéros , on utilise la balise "< ol >", puis on ajoute les éléments de la liste avec la balise "< li >"entre chaque élément.<br><strong>ex:<br>< ol ><br>< li>titre1< /li><br>< li>titre2< /li><br>< /ol > </strong><br>rendu: </p>
+<ol style="font-size:30px">
+<li>titre1</li>
+<li>titre2</li>
+</ol>
+<p style="font-size:30px">Pour mettre une liste avec des puces , on utilise la balise "< ul >", puis on ajoute les éléments de la liste avec la balise "< li >"entre chaque élément.<br><strong>ex:<br>< ul ><br>< li>titre1< /li><br>< li>titre2< /li><br>< /ul > </strong><br>rendu: </p>
+<ul style="font-size:30px">
+<li>titre1</li>
+<li>titre2</li>
+</ul>
+<p style="font-size:30px;color:rgb(116, 116, 41)">La balise pour mettre une image : < img src="image.jpg" alt="Description de l'image" ><br><span style="color:rgb(0, 0, 0)">"img" c est pour "image" , "src" c est pour "source" , "alt" c est pour "alternative" .</span></p>
+<p>Pour changer la couleur , la police , ou encore la taille d'une partie d'un texte , sans toucher au reste du paragraphe , on utilise l'attribut < span > < /span > et dans la balise d'ouverture , on ajoute l'attribut "style" avec les propriétés souhaitées.</p>
+</body>
+</html>
